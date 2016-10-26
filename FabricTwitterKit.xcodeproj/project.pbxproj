@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9503D6191D4FB6280080E3FF /* FabricTwitterKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */; };
 		9503D61B1D4FB6280080E3FF /* FabricTwitterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */; };
+		C14DC6F41DC11BB500775861 /* RCTTweetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C14DC6F31DC11BB500775861 /* RCTTweetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		9503D6151D4FB6280080E3FF /* libFabricTwitterKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFabricTwitterKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FabricTwitterKit.h; sourceTree = "<group>"; };
 		9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FabricTwitterKit.m; sourceTree = "<group>"; };
+		C14DC6F21DC11BB500775861 /* RCTTweetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTTweetManager.h; sourceTree = "<group>"; };
+		C14DC6F31DC11BB500775861 /* RCTTweetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTTweetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				9503D6181D4FB6280080E3FF /* FabricTwitterKit.h */,
 				9503D61A1D4FB6280080E3FF /* FabricTwitterKit.m */,
+				C14DC6F21DC11BB500775861 /* RCTTweetManager.h */,
+				C14DC6F31DC11BB500775861 /* RCTTweetManager.m */,
 			);
 			path = FabricTwitterKit;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9503D61B1D4FB6280080E3FF /* FabricTwitterKit.m in Sources */,
+				C14DC6F41DC11BB500775861 /* RCTTweetManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
