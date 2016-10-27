@@ -1,5 +1,4 @@
 'use strict';
 
-import { NativeModules } from 'react-native';
-
-export default NativeModules.FabricTwitterKit;
+exports.Twitter = require('./Twitter');
+exports.Tweet = require('./Tweet');
