@@ -13,4 +13,4 @@ Tweet.propTypes = {
 
 var RCTTweet = requireNativeComponent('RCTTweet', Tweet);
 
-export default Tweet;
+module.exports = Tweet;
